@@ -7,7 +7,7 @@ M7 - Poetry Slam
 Main file which writes a limerick, prints it out, performs it, scores
 it, offers the user the oportunity to save it, and offers the user the
 oportunity to replay an old poem.
-Dependencies: Poem
+Dependencies: Poem, os
 """
 
 from poem import Poem
@@ -43,7 +43,7 @@ def main():
         limerick.save_poem()
     
     do_perform_old_poem = input("Would you like to replay an old poem (y/n)? ")
-    if do_perform_old_poem == 'y':
+    if do_perform_old_poem.lower() == 'y':
         perform_old_poem()
 
 if __name__ == "__main__":
