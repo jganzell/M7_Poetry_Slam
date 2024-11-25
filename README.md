@@ -1,10 +1,13 @@
 # LIFT: Limericks Inspired by Fairy Tales
 Jolie Ganzell
+
 CSCI 3725
+
 M7 - Poetry Slam
+
 21 November, 2024
 
-Link to GitHub:
+Link to GitHub: https://github.com/jganzell/M7_Poetry_Slam
 
 ### Description of LIFT
 LIFT is a program that creates limericks based on children's stories. A limerick is a type of poem with five lines. The first two lines and the fifth line rhyme, and the third and fourth lines rhyme. Additionally, the lines have 8, 8, 5, 5, and 8 syllables in them, with the eight syllable lines following a "da DUM da da DUM da da DUM" stress pattern and the five syllable lines following a "da DUM da da DUM" stress pattern. LIFT focuses on creating a poem that follows these rigid rhyme scheme, syllable count, and meter patterns. Additionally, limericks are meant to be funny, and are often used as a means of roasting someone, which LIFT achieves by incorprating the name of someone of the user's choice into the poem. LIFT also performs and evaluates the limericks that it creates. LIFT evaluates by giving its poem a polarity score which is represented by a number between -1 and 1. -1 wouuld signify a strongly negative poem, and 1 would signify a stronly positive poem, with a score of 0 representing a neutral poem. A score farther from 0 is considered better, since limericks are supposed to be funny and evoke emotion.
@@ -20,6 +23,7 @@ In the beginning, this seemed like a very daunting project, especially given so 
 
 ### My inspiration
 As a human, humor is both an important and dificult to understand part of daily life and interacting with other people. As we make computers able to perform more and more human-like tasks, it is becoming more important to talk about how those computers may also develop a sense of humor. This is described in a paper by Cowie (2023), where he talks about how algorithms with a sense of humor had a more positive reception by the user than algorithms without a sense of humor. But Cowie (2023) also describes sitations where users are offput by a funny computer, and less likely to cooperate with it. Both positive and negative outcomes are possible, and it is important to ensure that if it is used in the field of AI, it is properly placed (Cowie, 2023). This complexity helped inspire me to dive into the world of computational humor and experience it myself.
+
 Limericks are effective as a form of poetry because they follow very strict rules. Their meter and rhyme scheme make them easily recognisable and add to their fun, goofy nature. 
 
 ### Sources
